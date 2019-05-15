@@ -1,0 +1,7 @@
+- name: リゾルバの再起動
+  systemd:
+    name: systemd-resolved.service
+    state: restarted
+
+#(jpdns/handlers/main.yml)
+#WOW!WOW!WOW!FOO!↑FOO!↑
